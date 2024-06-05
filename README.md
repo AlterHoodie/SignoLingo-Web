@@ -58,7 +58,7 @@ Before running the project, make sure you have the following dependencies instal
     ```
 
 
-## Working of SignoLingo.py
+## Working of Game
 
 1. Use Your Left Hand to Sign Alphabets
 2. Keep Your Hand Sufficiently Close enough to the Camera

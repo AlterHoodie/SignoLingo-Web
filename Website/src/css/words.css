@@ -1,0 +1,150 @@
+@media screen and (min-width:1600px) {
+.App{
+    display: flex;
+    /* justify-content: center; */
+    width: 100%;
+    height: 800px;
+    font-family:'JetBrains Mono';
+    /* font-weight: bold; */
+    font-optical-sizing: auto;
+    font-style: normal
+}
+
+.Words{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:750px;
+}
+.Sentence{
+    display: flex;
+    flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+}
+.Word,.WordActive{
+    color: #646669;
+    padding:10px;
+    font-size: 50px;
+}
+
+#startButton{
+    margin-top: 20px;
+    margin-left:20px;
+    margin-bottom: 20px;
+    color:#e2b714;
+    font-size:40px;
+    transition: color 0.2s;
+    width:800px;
+    text-align: left;
+    height: 50px;
+}
+
+#startButton:hover{
+    color:#fff;
+    transition: color 0.2s;
+} 
+.correct{
+    color: white;
+}
+.incorrect{
+    color: red;
+}
+
+.Timer{
+    margin-top: 20px;
+        margin-left: 20px;
+        /* margin-bottom: 20px; */
+        color: #e2b714;
+        font-size: 40px;
+        transition: color 0.2s;
+        width: 800px;
+        height: 40px;
+        text-align: left;
+}
+.Hint{
+    height:240px;
+    width:240px;
+}
+}
+
+@media screen and (max-height:1200px) and (max-width:1600px){
+    .App {
+            display: flex;
+            /* justify-content: center; */
+            width: 100%;
+            height: 800px;
+            font-family: 'JetBrains Mono';
+            /* font-weight: bold; */
+            font-optical-sizing: auto;
+            font-style: normal
+        }
+    .Typer{
+        width: 40vw;
+    }
+    .Words {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 40vw;
+        }
+        .Sentence {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+                .Word,
+                .WordActive {
+                    color: #646669;
+                    padding: 10px;
+                    font-size: 2.5rem;
+                }
+                #startButton {
+                    margin-top: 20px;
+                    margin-left: 20px;
+                    margin-bottom: 20px;
+                    color: #e2b714;
+                    font-size: 2.5rem;
+                    transition: color 0.2s;
+                    width: 40vw;
+                    text-align: left;
+                    height: 50px;
+                }
+        
+                #startButton:hover {
+                    color: #fff;
+                    transition: color 0.2s;
+                }
+        
+                .correct {
+                    color: white;
+                }
+        
+                .incorrect {
+                    color: red;
+                }
+                .Hint {
+                    height: 200px;
+                    width: 200px;
+                }
+                .Timer{
+    margin-top: 20px;
+        margin-left: 20px;
+        /* margin-bottom: 20px; */
+        color: #e2b714;
+        font-size: 40px;
+        transition: color 0.2s;
+        width: 40vw;
+        height: 40px;
+        text-align: left;
+}
+#hintcon{
+    width:400px;
+}
+}
+

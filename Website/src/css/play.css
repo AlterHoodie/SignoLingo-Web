@@ -1,0 +1,163 @@
+
+@media screen and (min-width:1600px){.App{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Game{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 20px;
+    flex-wrap: wrap;
+    height: 800px;
+    width: 100%;
+    height: 100vh;
+    font-family: 'JetBrains Mono';
+    /* font-weight: bold; */
+    font-optical-sizing: auto;
+    font-style: normal
+}
+.Play{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Hint{
+    /* margin-top: 50px; */
+    
+    border-radius: 10px;
+}
+#Hintbg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 265px;
+    width: 265px;
+    border-radius: 15px;
+    background-color: #2c2e31;
+}
+#Left{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+    width: 800px;
+    margin-Right:5px;
+}
+#Right{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    height:600px;
+    margin-Left:5px;
+    margin-top: 20px;
+}
+.Camera {
+    width: 800px;
+        height: 495px;
+        /* background-color: #2c2e31; */
+        border-radius: 15px;
+}
+.Webcam{
+    position: relative;
+    
+}
+.Webcam > div{
+    position: absolute;
+    left: 50%;
+        transform: translateX(-50%);
+}
+video{
+    width: 30vw;
+        height: 25vw;
+}
+.Typer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+}
+
+@media screen and (max-height:1200px) and (max-width:1600px){
+.Play{
+    
+width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.App {
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+.Game {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 20px;
+    /* flex-wrap: wrap; */
+    height: 800px;
+    /* width: 100%; */
+    /* height: 100vh; */
+    font-family: 'JetBrains Mono';
+    /* font-weight: bold; */
+    font-optical-sizing: auto;
+    font-style: normal
+}
+#Hintbg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 225px;
+    width: 225px;
+    border-radius: 15px;
+    background-color: #2c2e31;
+}
+
+#Left {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content:left;
+    align-items: center;
+    height: 600px;
+    width: 40vw;
+    margin-Right: 10px;
+}
+#Right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+    width:40vw;
+    margin-Left: 10px;
+    margin-top: 20px;
+}
+.Camera {
+    width: 30vw;
+    height: 265px;
+    /* background-color: #2c2e31; */
+    border-radius: 15px;
+}
+video{
+    border-radius: 15px;
+    width: 30vw;
+    height: 25vw;
+}
+}

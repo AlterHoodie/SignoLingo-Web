@@ -1,0 +1,139 @@
+@media screen and (min-width:1600px) {
+    .custom-radio {
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+}
+
+.custom-radio input[type="radio"] {
+    display: none;
+}
+#spacer{
+    height: 40px;
+    width: 8px;
+    border-radius: 15%;
+    background-color:#323437 ;
+
+}
+#filler{
+    width:40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #646669; 
+    padding: 10;
+    font-size:30; font-weight:normal;
+    margin-top: 15px;
+        background-color: #2c2e31;
+        border-radius: 15px;
+        width: 1280px;
+        padding: 5px;
+}
+#radiocon{
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.custom-radio label {
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    /* Adjust according to your design */
+    height: 30px;
+    /* Adjust according to your design */
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin:5px;
+    transition: color 0.3s;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.custom-radio label:hover {
+    transition: color 0.2s;
+    color: #fff;
+    /* Change text color on hover */
+    
+    
+}
+.custom-radio input[type="radio"]:checked+label {
+    
+    /* Change to the color you want */
+    color: #e2b714;
+}
+
+.custom-radio input[type="radio"]:checked:hover+label {
+    transition: color 0.2s;
+
+    /* Change to the color you want */
+    color: #fff;
+}
+}
+
+@media screen and (max-height:1200px) and (max-width:1600px){
+
+    #filler {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-top: 15px;
+            background-color: #2c2e31;
+            border-radius: 15px;
+            width: 100%;
+            padding: 5px;
+        }
+    .custom-radio input[type="radio"] {
+            display: none;
+        }
+    #radiocon{
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#spacer {
+    height: 40px;
+    width: 8px;
+    border-radius: 15%;
+    background-color: #323437;
+
+}
+        .custom-radio label {
+            display: flex;
+            justify-content: center;
+            width: 30px;
+            /* Adjust according to your design */
+            height: 30px;
+            /* Adjust according to your design */
+            text-align: center;
+            line-height: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin: 5px;
+            transition: color 0.3s;
+            font-weight: normal;
+            font-size: 1.5rem;
+        }
+    
+        .custom-radio label:hover {
+            transition: color 0.2s;
+            color: #fff;
+            /* Change text color on hover */
+    
+    
+        }
+    
+        .custom-radio input[type="radio"]:checked+label {
+    
+            /* Change to the color you want */
+            color: #e2b714;
+        }
+    
+        .custom-radio input[type="radio"]:checked:hover+label {
+            transition: color 0.2s;
+    
+            /* Change to the color you want */
+            color: #fff;
+        }
+}

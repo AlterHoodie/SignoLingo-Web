@@ -1,0 +1,101 @@
+@media screen and (min-width:1600px){.ResultName{
+
+    color:#646669;
+    font-size:35px;
+}
+
+.Result{
+    color:#e2b714;
+    font-size: 40px;
+}
+#resultClose{
+    height: 40px;
+        width: 40px;
+        left: 100%;
+        font-size: 35px;
+        font-weight: bold;
+        position: relative;
+        text-align: center;
+        color: #646669;
+        user-select: none;
+        transition:color 0.2s;
+}
+#resultClose:hover{
+    color:#fff;
+    transition:color 0.2s;
+}
+#resultcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    width:750px;
+}
+#resulttext{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    margin:30px;
+}
+.ResultHolder{
+    margin:10px;
+}
+.ResultName,.Result{
+    text-align: Left;
+}
+}
+
+@media screen and (max-height:1200px) and (max-width:1600px){
+    .ResultName {
+    
+            color: #646669;
+            font-size: 2rem;
+        }
+    
+        .Result {
+            color: #e2b714;
+            font-size: 2.2rem;
+        }
+        #resultClose {
+            height: 40px;
+            width: 40px;
+            left: 100%;
+            font-size: 30px;
+            font-weight: bold;
+            position: relative;
+            text-align: center;
+            color: #646669;
+            user-select: none;
+            transition: color 0.2s;
+        }
+
+        #resultClose:hover {
+            color: #fff;
+            transition: color 0.2s;
+        }
+
+        #resultcon {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: center;
+            width: 400px;
+            margin-right:10px;
+        }
+
+        #resulttext {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            /* margin: 30px; */
+        }
+        
+        .ResultHolder {
+            margin: 10px;
+        }
+
+        .ResultName,
+        .Result {
+            text-align: Left;
+        }
+}
